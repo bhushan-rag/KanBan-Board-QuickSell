@@ -1,0 +1,88 @@
+.display-dropdown {
+    position: relative;
+}
+.display-dropdown .dropdown-label-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    box-shadow: 0 0 0.25rem #12121242;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.display-dropdown .dropdown-label {
+    color: #282a2f;
+}
+
+.display-dropdown .dropdown-content-container {
+    position: absolute;
+    top: 2.5rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    background-color: #f8f9fb;
+    box-shadow: 0 0 0.125rem #0007;
+    width: 30%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.display-dropdown .dropdown-content-container:not(.visible) {
+    display: none;
+}
+
+.display-dropdown .dropdown-content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-dropdown .dropdown-content-label {
+    color: #8a8b8c;
+}
+
+.display-dropdown select {
+    background-color: #fefffe;
+    outline: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+#grouping{
+     width: 90px;
+          padding: 4px 7px;
+          border-radius:  5px;
+          color: #333;
+          font-size: 13px;
+          appearance: none;
+}
+
+#grouping{
+     background-image: url('../../../Untitled/icons_FEtask/down.svg');
+          background-repeat: no-repeat;
+          background-position: right 0px center;
+          background-size: 16px;
+}
+
+#ordering {
+     width: 90px;
+     padding:4px 7px;
+     border-radius: 5px;
+     color: #333;
+     font-size: 13px;
+     appearance: none;
+}
+
+#ordering {
+     background-image: url('../../../Untitled/icons_FEtask/down.svg');
+     background-repeat: no-repeat;
+     background-position: right 0px center;
+     background-size: 16px;
+}
