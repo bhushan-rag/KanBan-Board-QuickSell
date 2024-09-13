@@ -1,7 +1,6 @@
 import React from 'react';
 import './card.css'
 import UserIcon from '../UserIcon';
-import { LuMoreHorizontal } from 'react-icons/lu';
 import { Ticket, User } from '../../interfaces';
 import {
   getStatusIcon,
