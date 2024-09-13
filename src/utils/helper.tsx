@@ -27,6 +27,23 @@ export const getPriorityIcon = (priority: string) => {
     }
 }
 
+export const getPriorityIconWithPriorityNumber = (priority: number) => {
+  switch (priority) {
+    case 0:
+      return <img src={no_priority} alt="No Priority" />;
+    case 1:
+      return <img src={low} alt="Low Priority" />;
+    case 2:
+     return <img src={medium} alt="Medium Priority" />;
+    case 3:
+            return <img src={high} alt="High Priority" />;
+    case 4:
+      return <img src={urgent} alt="Urgent Priority" />;
+    default:
+      return <img src={medium} alt="Medium Priority" />;
+  }
+};
+
 export const getStatusIcon = (priority: string) => {
     switch (priority) {
         case "Backlog": return <img src={backlog} alt="logos" />
