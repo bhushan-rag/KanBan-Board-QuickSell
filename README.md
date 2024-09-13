@@ -45,7 +45,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Preview
 
+<<<<<<< HEAD
 ![Desktop Screenshot 1](./preview/Desktop-1.png)
 ![Desktop Screenshot 2](./preview/Desktop-2.png)
+=======
+>>>>>>> b18948d73fc32b8bb3cff85271a022193aa1ed7a
